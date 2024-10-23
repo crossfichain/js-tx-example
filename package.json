@@ -1,0 +1,28 @@
+{
+  "name": "js-tx-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "patch-package"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cosmjs/crypto": "0.31.0",
+    "@cosmjs/proto-signing": "0.31.0",
+    "@cosmjs/stargate": "0.31.0",
+    "@cosmjs/tendermint-rpc": "0.31.0",
+    "bech32-converting": "^1.0.9",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "patch-package": "^8.0.0"
+  },
+  "volta": {
+    "node": "18.17.1",
+    "yarn": "1.19.2"
+  }
+}
